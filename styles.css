@@ -24,7 +24,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     margin-inline: auto;
-    padding: 10px 8% 30px 8%;
+    padding: 10px 10% 30px 10%;
 }
 
 .nav-bar {
@@ -42,14 +42,49 @@ li {
 }
 
 .nav-bar a {
-    font-weight:700;
+    font-weight: bold;
     color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    font-size: 0.85em;
 }
 
-.pseudo-button {
-    background-color: #f4f4f4;
-    border: 1px solid black;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: 700;
+.pseudo-button { 
+    border: 1px solid #EFEFF1;
+    padding-inline: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-weight:400;
 }
+
+.pseudo-button:hover {
+    background-color: #EFEFF1;
+}
+
+.download-svg {
+    width: 15px;
+    height: 15px;
+}
+
+.hero {
+    background: rgb(179, 179, 179);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.person-svg{
+    width: 25px;
+    height: 20px;
+}
+
+.location-svg {
+    width: 25px;
+    height: 20px;
+}
+
