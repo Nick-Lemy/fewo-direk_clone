@@ -145,7 +145,6 @@ main {
 }
 
 .section-one h1, .section-two h1 {
-    font-size: 1.7em;
     margin-bottom: 20px;
 }
 
@@ -224,4 +223,59 @@ h1 span{
     font-size: 0.6em;
 }
 
-.section-three
+.section-three {
+    padding: 15% 0% 5% 5%;
+    background: url("assets/section3_bg.jpeg") no-repeat center center/cover;
+    border-radius: 20px;
+    color: white;
+}
+
+.section-three-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section-three-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.line1, .line5{
+    width: fit-content;
+    font-size: 12px;
+}
+
+.section-three-card img {
+    width: 300px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.line2{
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.line3 span{
+    background-color: #227950;
+    padding: 3px 7px 3px 7px;
+    
+    font-size: 0.9em;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;   
+}
+
+.line4 {
+    font-weight: 700;
+}
+
+.section-three-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
