@@ -137,3 +137,58 @@ li {
     font-weight: 700;
 }
 
+.section-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 10%;
+}
+
+.section-one h1 {
+    font-size: 1.5em;
+}
+
+.section-one-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.image-one, .image-two, .image-three, .image-four, .image-five {
+    padding-top: 250px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.image-one {
+    background: url("assets/image1.jpeg") no-repeat center center/cover;
+    background-color: #00000031;
+    background-blend-mode:color-burn;
+}
+
+.image-two {
+    background: url("assets/image2.jpeg") no-repeat center center/cover;
+    background-color: #00000031;
+    background-blend-mode:color-burn;
+}
+
+.image-three {
+    background: url("assets/image3.jpeg") no-repeat center center/cover;
+    background-color: #00000031;
+    background-blend-mode:color-burn;
+}
+
+.image-four {
+    background: url("assets/image4.jpeg") no-repeat center center/cover;
+    background-color: #00000031;
+    background-blend-mode:color-burn;
+}
+
+.image-five {
+    background: url("assets/image5.jpeg") no-repeat center center/cover;
+    background-color: #00000031;
+    background-blend-mode:color-burn;
+}
