@@ -144,7 +144,7 @@ main {
     padding: 50px 10%;
 }
 
-section h1 {
+.section-one h1, .section-two h1 {
     font-size: 1.7em;
     margin-bottom: 20px;
 }
@@ -201,7 +201,7 @@ section h1 {
     color: black;
 }
 
-.card {
+.section-one-card {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -210,12 +210,12 @@ section h1 {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
 }
 
-.card img {
+.section-one-card img {
     width: 275px;
     border-radius: 15px 15px 0 0;
 }
 
-.card p {
+.section-one-card p {
     padding: 0 0 5px 10px;
 }
 
@@ -223,3 +223,5 @@ h1 span{
     font-weight: 400;
     font-size: 0.6em;
 }
+
+.section-three
