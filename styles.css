@@ -137,18 +137,19 @@ li {
     font-weight: 700;
 }
 
-.section-one {
+main {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 50px 10%;
 }
 
-.section-one h1 {
-    font-size: 1.5em;
+section h1 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
 }
 
-.section-one-images {
+.section-two-images {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -165,7 +166,7 @@ li {
 
 .image-one {
     background: url("assets/image1.jpeg") no-repeat center center/cover;
-    background-color: #00000031;
+    background-color: #0000001d;
     background-blend-mode:color-burn;
 }
 
@@ -191,4 +192,34 @@ li {
     background: url("assets/image5.jpeg") no-repeat center center/cover;
     background-color: #00000031;
     background-blend-mode:color-burn;
+}
+
+.section-one-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 275px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p {
+    padding: 0 0 5px 10px;
+}
+
+h1 span{
+    font-weight: 400;
+    font-size: 0.6em;
 }
